@@ -1,0 +1,9 @@
+POST /login/../../../etc/passwd?login=json HTTP/1.0
+If-Modified-Since: 6Wî7Ç._WtT
+If-Range: ÂÅLÔ(,²7^
+Authorization: Basic à!Ô
+Accept-Language: es
+Cache-Control: max-age=844417768
+
+F{hBhcCjF]\uT=json
+

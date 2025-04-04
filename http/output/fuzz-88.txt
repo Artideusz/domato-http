@@ -1,0 +1,19 @@
+POST /500 HTTP/1.0
+Accept-Encoding: deflate
+If-None-Match: W/"³|²Sö0¨Ð"
+Accept: text/*
+If-Unmodified-Since: GÀNW¼
+Accept-Language: es
+Content-Type: multipart/form-data; boundary=äÐö
+If-Modified-Since: H7ù½òG
+2
+Connection: keep-alive
+If-None-Match: W/"ðÎ|¥x]"
+If-Match: W/"ÏÑeÞéP­Mõv"
+Content-Length: 1427966544
+If-None-Match: "yßAÁd?"
+If-Unmodified-Since: ba¸_@Ü|_
+Host: Rõ@$®ÚÖ54×É
+
+--ç¡RJý\r\nContent-Disposition: form-data; name="ËGñ"\r\n\r\n)­oè¸G£;\r\n--G¤;cí-b	ÿ`Í--
+

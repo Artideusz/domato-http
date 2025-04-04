@@ -1,0 +1,24 @@
+TRACE /index.php?type=json&login=json HTTP/m¾
+If-Modified-Since: 
+Connection: close
+Accept-Charset: iso-8859-1
+Accept-Charset: iso-8859-1
+Cookie: X=16_¤
+Connection: keep-alive
+If-Modified-Since: ¥¼^§¬s
+If-None-Match: " ²"BfPuÕ"
+If-None-Match: "Â.ß-°"
+Range: bytes=-757598196--1160476186
+Cache-Control: max-age=-579644219
+If-Modified-Since: ïAµø
+Range: bytes=-911790155--1095854606
+Connection: close
+User-Agent: curl/³ì¶^Ù
+Accept-Language: de
+If-Modified-Since: +bjWe
+Connection: keep-alive
+If-Match: W/"¬Ù{T¿öÖ"
+If-Match: W/"rÈmË×G£ÔûmÔ"
+Accept-Encoding: identity
+
+

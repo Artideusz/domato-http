@@ -1,0 +1,15 @@
+POST /../../../etc/passwd/index.html?login=admin HTTP/1.1
+If-Range: 
+Content-Length: -286811857
+Content-Length: 468592742
+User-Agent: curl/å)®
+Accept-Language: *
+Host: ­÷ké=iPëJxÔÞf0
+Accept: application/json
+Cache-Control: must-revalidate
+Connection: keep-alive
+Referer: /I~o{ECzJLOYO|[p`Zu/LFwfX|qGYaMUFlkyjn?ue=1&type=d}B}vB~b}Ty_IEN&login=true&type=1&login=admin?iiWf\r_kp^fIfsh=\w]bifen]
+If-Unmodified-Since: '/! ~XþÍ@	åé©Nv
+
+--³I¬¥[\r\nContent-Disposition: form-data; name="úå2dXkz"\r\n\r\n\r\n--+ÖºðO--
+

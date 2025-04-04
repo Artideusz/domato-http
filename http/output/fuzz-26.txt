@@ -1,0 +1,8 @@
+.ï8ìP%F /404?username=true HTTP/1.1
+Accept-Encoding: br
+Content-Type: application/json
+Accept-Language: *
+Content-Type: application/x-www-form-urlencoded
+
+{"IdvjUFKCT`kpEfVc~i": "1"}
+

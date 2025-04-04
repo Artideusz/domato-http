@@ -1,8 +1,25 @@
 # Add your wordlist here and prepend the wordlist entries with the <path> tag
 
+<path> = <string min=65 max=126>
 <path> = login
 <path> = system/login
 <path> = help
 <path> = 404
 <path> = 500
+<path> = assets
+<path> = index.html
+<path> = index.php
 <path> = ../../../etc/passwd
+
+<param> = <string min=65 max=126>
+<param> = login
+<param> = username
+<param> = password
+<param> = debug
+<param> = type
+
+<param_val> = <string min=65 max=126>
+<param_val> = true
+<param_val> = 1
+<param_val> = admin
+<param_val> = json

@@ -1,0 +1,11 @@
+¶H×2¹((D /help HTTP/1.1
+User-Agent: Mozilla/5.0 (ï	·¼ê'¤vaÚ) NAèÔ«¨>Ñ#ûÙmki/ã=á&wû~,]OñYÍE
+User-Agent: Mozilla/5.0 (Å1D /¦æuÌ¡) ¤/PÍÊñÿAJ¦­l¾ò
+Cache-Control: max-age=1665435822
+Accept-Encoding: deflate
+Range: bytes=-1904031735--292456233
+Accept-Encoding: deflate
+Authorization: Bearer QÛ¢ÿs¬Geu
+
+[{"debug": "json"},{"username": "true"}]
+

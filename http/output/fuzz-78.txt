@@ -1,0 +1,7 @@
+POST /system/login?username=true&debug=1&username=1&type=json&username=true&SSlU=1 HTTP/©©TÕÊ(pø­y×
+Accept: text/html
+If-Modified-Since: ZDäèæÝ(W9áé
+Range: bytes=772449988-110523761
+
+{"debug": "xKFjSb|GVf~m]t"}
+

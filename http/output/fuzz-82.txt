@@ -1,0 +1,10 @@
+HEAD /index.html HTTP/1.0
+Accept-Charset: *
+If-Range: 
+If-None-Match: W/"Â"
+Content-Type: application/x-www-form-urlencoded
+Authorization: Digest 
+If-Range: Ú¶nAl
+Content-Length: -899689510
+
+

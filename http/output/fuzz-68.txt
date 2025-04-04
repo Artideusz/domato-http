@@ -1,0 +1,8 @@
+POST /help/index.html?H\OCnXj=YBlj HTTP/-654491030.1798505646
+Range: bytes=916389532--2093540288
+Accept-Encoding: deflate
+Accept-Language: en
+Referer: /index.php?username=json
+
+[{"ZwtyybstpL~o": "admin"},{"password": "1"}]
+

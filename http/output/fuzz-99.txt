@@ -1,0 +1,6 @@
+TRACE /index.php?password=json&type=json HTTP/1.0
+If-Modified-Since: ¶&Í¶á Ê4&·çBáÏåaW
+Accept-Encoding: gzip
+Cache-Control: no-store
+
+

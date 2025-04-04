@@ -1,0 +1,21 @@
+¿À¬-fíB²¹á¤ /assets HTTP/1.1
+If-Unmodified-Since: fÞ$vOWº
+Content-Length: 940772715
+Accept-Language: es
+Host: qd©rþÕ
+Accept-Charset: iso-8859-1
+Referer: /../../../etc/passwd
+If-Range: 
+Accept: */*
+Cache-Control: max-age=450090579
+Connection: keep-alive
+If-Unmodified-Since: l0ÊÊê£
+Accept-Encoding: deflate
+Accept: */*
+Referer: /404/404?type=1
+Accept-Charset: iso-8859-1
+If-Match: "UëVÆ"
+Accept: application/xml
+
+password=VY_cb|EME}m_
+

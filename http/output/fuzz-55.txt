@@ -1,0 +1,6 @@
+PUT /index.html HTTP/2.0
+Accept-Encoding: *
+Host: &i5¸xbj
+
+type=admin&debug=1&password=V
+

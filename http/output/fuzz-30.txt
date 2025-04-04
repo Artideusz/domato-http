@@ -1,0 +1,16 @@
+PUT /login?^Os=admin&login=true HTTP/1.0
+Content-Type: text/plain
+Accept-Charset: *
+If-None-Match: W/"9_kqå"
+Cache-Control: max-age=2139074708
+Accept: text/*
+Accept-Charset: utf-8
+Accept: text/html
+Accept-Language: de
+If-Match: ""
+If-Match: W/"¶KRáuD~kX*Ð¨KD"
+If-Match: "àâÊ7¤[$"
+Content-Type: text/plain
+
+[{"type": "iY]trtDJimIYAnSaLHsE"},{"type": "true"}]
+

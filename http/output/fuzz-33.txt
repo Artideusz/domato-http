@@ -1,0 +1,12 @@
+¦NB!VACßCÀ]ä /404/system/login?debug=1&password=1 HTTP/749514868.1305465602
+Range: bytes=1301003973-888077324
+Accept: application/xml
+User-Agent: curl/0}2¼vï
+If-Match: "°=£X±í?¤°"
+Content-Length: 1949471410
+Content-Type: text/html
+Accept-Language: es
+Content-Length: 1885642293
+
+[{"login": "xWmBDjEFBxN{R`}~"},{"login": "json"}]
+

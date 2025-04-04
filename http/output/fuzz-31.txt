@@ -1,0 +1,16 @@
+W?°}Bâ /404 HTTP/1.0
+Content-Type: multipart/form-data; boundary=³°ún(·LKÎÜT
+If-Match: W/"( Þ6/wz50yy'¾ÂQ5"
+Referer: /404
+If-Range: =_Z4kui½ÁC~r
+Accept-Language: fr
+Accept-Encoding: gzip
+Cookie: h·È=
+7ðRÞËYmf@lÃ»
+Accept-Encoding: identity
+If-Range: 
+Authorization: Basic EÞRï9rNgIeT ©@
+If-None-Match: W/"E{HÏ%Ø=ZÜ°mHïGHf"
+If-None-Match: W/"Íl°BPE=ÁO/LØ·"
+
+

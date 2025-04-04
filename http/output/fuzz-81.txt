@@ -1,0 +1,5 @@
+POST /../../../etc/passwd HTTP/1.1
+Cache-Control: must-revalidate
+
+{"password": ""}
+

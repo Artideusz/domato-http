@@ -1,0 +1,11 @@
+POST /system/login HTTP/2.0
+Content-Type: text/html
+Accept: application/json
+Accept-Charset: *
+Accept-Charset: iso-8859-1
+Accept-Language: de
+Content-Length: 1202997007
+Content-Type: text/plain
+
+[{"^Zs`RVjw~": "admin"},{"username": "x^tkMRb|AkiHiM"}]
+

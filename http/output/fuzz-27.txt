@@ -1,0 +1,11 @@
+¡û /404/system/login?smMF^=json?type=admin&username=json&type=hqLrl HTTP/#£õø~9è¨é£Âä
+If-Range: ÑwWã+ÎæìR/² 
+Referer: /login
+Accept: application/json
+Referer: /../../../etc/passwd?username=NpZnwTl&type=Glq{
+If-Modified-Since: >
+If-Match: W/"J|tC»VA@c$e®à	"
+If-Range: Ó·	ÚÝ 
+
+type=admin&password=admin
+

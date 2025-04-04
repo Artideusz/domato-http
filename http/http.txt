@@ -8,6 +8,8 @@
 <http_version> = 1.1
 <http_version> = 1.0
 <http_version> = 2.0
+<http_version> = <int>.<int>
+<http_version> = <string>
 
 <http_method> = GET
 <http_method> = HEAD
@@ -22,16 +24,17 @@
 <http_body_method> = POST
 <http_body_method> = PUT
 <http_body_method> = <string min=32>
-<http_method> = <string>
+<http_body_method> = <string>
 
-<http_uri p=0.9> = /<import from=wordlist.txt symbol=path>
-<http_uri> = /<string min=65 max=126>
-<http_uri> = /<string min=65 max=126>/<string min=65 max=126>
-<http_uri> = /<string min=65 max=126>?<http_query>
+<http_uri_part> = /<import from=wordlist.txt symbol=path>
 
+<http_uri p=0.9> = <http_uri_part>
+<http_uri p=0.1> = <http_uri_part><http_uri>
+<http_uri p=0.9> = <http_uri_part>?<http_query>
+<http_uri p=0.1> = <http_uri_part><http_uri>?<http_query>
 
-<http_query p=0.3> = <string min=65 max=126>=<string min=65 max=126>
-<http_query p=0.7> = <string min=65 max=126>=<string min=65 max=126>&<http_query>
+<http_query> = <import from=wordlist.txt symbol=param>=<import from=wordlist.txt symbol=param_val>
+<http_query> = <import from=wordlist.txt symbol=param>=<import from=wordlist.txt symbol=param_val>&<http_query>
 
 <http_headers p=0.9> = <http_header><newline><http_headers>
 <http_headers p=0.1> = <http_header><newline>
@@ -110,9 +113,17 @@
 <http_user_agent> = PostmanRuntime/<string>
 
 # TODO
-<http_body_content> = <string>
-<http_body_content> = {"<string min=97 max=122>": "<string min=97 max=122>"}
-<http_body_content> = <string min=97 max=122>=<string min=97 max=122>&<string min=97 max=122>=<string min=97 max=122>
+
+<http_body_content_form> = <import from=wordlist.txt symbol=param>=<import from=wordlist.txt symbol=param_val>
+<http_body_content_form> = <import from=wordlist.txt symbol=param>=<import from=wordlist.txt symbol=param_val>&<http_body_content_form>
+
+<http_body_content_json> = {"<import from=wordlist.txt symbol=param>": "<import from=wordlist.txt symbol=param_val>"}
+
+<http_body_content> = <http_body_content_form>
+
+<http_body_content> = <http_body_content_json>
+<http_body_content> = [<http_body_content_json>,<http_body_content_json>]
+
 <http_body_content> = --<string>\r\nContent-Disposition: form-data; name="<string>"\r\n\r\n<string>\r\n--<string>--
 
 <newline> = <cr><lf>

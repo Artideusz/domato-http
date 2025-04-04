@@ -1,0 +1,8 @@
+POST /login?FNyANg=json HTTP/1.0
+User-Agent: curl/u	±Sv|Éòzµ
+Referer: /index.php
+If-None-Match: "!$tk.­»?³Ö"
+If-Modified-Since: kIÖ¤íþýQÿ
+
+{"aLx}EfWejaiIOL": "json"}
+

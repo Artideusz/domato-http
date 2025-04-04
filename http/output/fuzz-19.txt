@@ -1,0 +1,13 @@
+CONNECT /system/login?username=true&password=true HTTP/1.0
+Authorization: Bearer Zö
+Accept-Language: en
+If-None-Match: W/"
+1|"
+Content-Type: text/plain
+If-Modified-Since: ò¾JOLú'bì[Ò
+Accept-Language: es
+Accept-Charset: iso-8859-1
+Content-Length: -1157823385
+User-Agent: Mozilla/5.0 (`ÅÄZGcnT) 2]nFM3¬qåKs"ç///Oê¯
+
+

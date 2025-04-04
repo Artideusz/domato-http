@@ -1,0 +1,12 @@
+PUT /ODTK HTTP/1.0
+If-Modified-Since: á
+Authorization: Basic 
+Accept-Language: de
+If-Unmodified-Since: «Þ¯
+Referer: /../../../etc/passwd
+Accept-Charset: *
+Accept-Encoding: gzip
+If-Range: -S
+Accept-Language: en
+
+
