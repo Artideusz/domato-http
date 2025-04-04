@@ -1,0 +1,117 @@
+<http_fuzz> = <http_request><newline><newline>
+
+<http_request> = <http_method> <http_uri> HTTP/<http_version><newline><http_headers>
+# <http_request> = <http_body_method> <http_uri> HTTP/<http_version><newline><http_headers><newline><http_body_content>
+
+<http_version> = 1.1
+<http_version> = 1.0
+<http_version> = 2.0
+
+<http_method> = GET
+<http_method> = HEAD
+<http_method> = PUT
+<http_method> = DELETE
+<http_method> = OPTIONS
+<http_method> = TRACE
+<http_method> = CONNECT
+<http_method> = <string>
+
+<http_body_method> = POST
+
+<http_uri> = /<string>
+<http_uri> = /<string>/<string>
+<http_uri> = /<string>?<http_query>
+
+<http_query> = <string>=<string>
+<http_query> = <string>=<string>&<http_query>
+
+<http_headers> = <http_header>
+<http_headers> = <http_header><newline><http_header>
+<http_headers> = <http_header><newline><http_header><newline><http_header>
+<http_headers> = <http_header><newline><http_header><newline><http_header><newline><http_header>
+<http_headers> = <http_header><newline><http_header><newline><http_header><newline><http_header><newline><http_header>
+<http_headers> = <http_header><newline><http_header><newline><http_header><newline><http_header><newline><http_header><newline><http_header>
+<http_headers> = <http_header><newline><http_header><newline><http_header><newline><http_header><newline><http_header><newline><http_header><newline><http_header>
+<http_headers> = <http_header><newline><http_header><newline><http_header><newline><http_header><newline><http_header><newline><http_header><newline><http_header><newline><http_header>
+<http_headers> = <http_header><newline><http_header><newline><http_header><newline><http_header><newline><http_header><newline><http_header><newline><http_header><newline><http_header><newline><http_header>
+<http_headers> = <http_header><newline><http_header><newline><http_header><newline><http_header><newline><http_header><newline><http_header><newline><http_header><newline><http_header><newline><http_header><newline><http_header>
+
+<http_header> = Accept: <http_accept_value>
+<http_header> = Accept-Charset: <http_charset>
+<http_header> = Accept-Encoding: <http_encoding>
+<http_header> = Accept-Language: <http_language>
+<http_header> = Authorization: <http_auth>
+<http_header> = Cache-Control: <http_cache_control>
+<http_header> = Connection: <http_connection>
+<http_header> = Content-Length: <int>
+<http_header> = Content-Type: <http_content_type>
+<http_header> = Cookie: <http_cookie>
+<http_header> = Host: <string>
+<http_header> = If-Match: <http_etag>
+<http_header> = If-Modified-Since: <http_date>
+<http_header> = If-None-Match: <http_etag>
+<http_header> = If-Range: <http_date>
+<http_header> = If-Unmodified-Since: <http_date>
+<http_header> = Range: bytes=<int>-<int>
+<http_header> = Referer: <http_uri>
+<http_header> = User-Agent: <http_user_agent>
+
+<http_accept_value> = */*
+<http_accept_value> = text/*
+<http_accept_value> = text/html
+<http_accept_value> = application/json
+<http_accept_value> = application/xml
+
+<http_charset> = utf-8
+<http_charset> = iso-8859-1
+<http_charset> = *
+
+<http_encoding> = gzip
+<http_encoding> = deflate
+<http_encoding> = br
+<http_encoding> = identity
+<http_encoding> = *
+
+<http_language> = en-US
+<http_language> = en
+<http_language> = es
+<http_language> = fr
+<http_language> = de
+<http_language> = *
+
+<http_auth> = Basic <string>
+<http_auth> = Bearer <string>
+<http_auth> = Digest <string>
+
+<http_cache_control> = no-cache
+<http_cache_control> = no-store
+<http_cache_control> = max-age=<int>
+<http_cache_control> = must-revalidate
+
+<http_connection> = keep-alive
+<http_connection> = close
+
+<http_content_type> = text/plain
+<http_content_type> = text/html
+<http_content_type> = application/json
+<http_content_type> = application/x-www-form-urlencoded
+<http_content_type> = multipart/form-data; boundary=<string>
+
+<http_cookie> = <string>=<string>
+<http_cookie> = <string>=<string>; <http_cookie>
+
+<http_etag> = "<string>"
+<http_etag> = W/"<string>"
+
+<http_date> = <string>
+
+<http_user_agent> = Mozilla/5.0 (<string>) <string>/<string>
+<http_user_agent> = curl/<string>
+<http_user_agent> = PostmanRuntime/<string>
+
+<http_body_content> = <string>
+<http_body_content> = {"<string>": "<string>"}
+<http_body_content> = <string>=<string>&<string>=<string>
+<http_body_content> = --<string>\r\nContent-Disposition: form-data; name="<string>"\r\n\r\n<string>\r\n--<string>--
+
+<newline> = <cr><lf>
