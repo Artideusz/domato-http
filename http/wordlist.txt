@@ -1,0 +1,8 @@
+# Add your wordlist here and prepend the wordlist entries with the <path> tag
+
+<path> = login
+<path> = system/login
+<path> = help
+<path> = 404
+<path> = 500
+<path> = ../../../etc/passwd

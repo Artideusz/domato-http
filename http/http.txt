@@ -1,3 +1,5 @@
+!import wordlist.txt
+
 <http_fuzz> = <http_request><newline><newline>
 
 <http_request> = <http_method> <http_uri> HTTP/<http_version><newline><http_headers>
@@ -14,37 +16,25 @@
 <http_method> = OPTIONS
 <http_method> = TRACE
 <http_method> = CONNECT
+<http_method> = <string min=32>
 <http_method> = <string>
 
 <http_body_method> = POST
 <http_body_method> = PUT
-<http_body_method> = <string>
+<http_body_method> = <string min=32>
+<http_method> = <string>
 
+<http_uri p=0.9> = /<import from=wordlist.txt symbol=path>
 <http_uri> = /<string min=65 max=126>
 <http_uri> = /<string min=65 max=126>/<string min=65 max=126>
 <http_uri> = /<string min=65 max=126>?<http_query>
 
-<http_query> = <string min=65 max=126>=<string min=65 max=126>
-<http_query> = <string min=65 max=126>=<string min=65 max=126>&<http_query>
-<http_query> = <string min=65 max=126>=<string min=65 max=126>&<http_query>
-<http_query> = <string min=65 max=126>=<string min=65 max=126>&<http_query>
-<http_query> = <string min=65 max=126>=<string min=65 max=126>&<http_query>
-<http_query> = <string min=65 max=126>=<string min=65 max=126>&<http_query>
 
-# We want a higher probability of multiple headers
-<http_headers> = <http_header><newline><http_headers>
-<http_headers> = <http_header><newline><http_headers>
-<http_headers> = <http_header><newline><http_headers>
-<http_headers> = <http_header><newline><http_headers>
-<http_headers> = <http_header><newline><http_headers>
-<http_headers> = <http_header><newline><http_headers>
-<http_headers> = <http_header><newline><http_headers>
-<http_headers> = <http_header><newline><http_headers>
-<http_headers> = <http_header><newline><http_headers>
-<http_headers> = <http_header><newline><http_headers>
-<http_headers> = <http_header><newline><http_headers>
-<http_headers> = <http_header><newline><http_headers>
-<http_headers> = <http_header><newline>
+<http_query p=0.3> = <string min=65 max=126>=<string min=65 max=126>
+<http_query p=0.7> = <string min=65 max=126>=<string min=65 max=126>&<http_query>
+
+<http_headers p=0.9> = <http_header><newline><http_headers>
+<http_headers p=0.1> = <http_header><newline>
 
 <http_header> = Accept: <http_accept_value>
 <http_header> = Accept-Charset: <http_charset>
@@ -121,8 +111,8 @@
 
 # TODO
 <http_body_content> = <string>
-<http_body_content> = {"<string>": "<string>"}
-<http_body_content> = <string>=<string>&<string>=<string>
+<http_body_content> = {"<string min=97 max=122>": "<string min=97 max=122>"}
+<http_body_content> = <string min=97 max=122>=<string min=97 max=122>&<string min=97 max=122>=<string min=97 max=122>
 <http_body_content> = --<string>\r\nContent-Disposition: form-data; name="<string>"\r\n\r\n<string>\r\n--<string>--
 
 <newline> = <cr><lf>
