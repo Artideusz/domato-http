@@ -1,7 +1,7 @@
 <http_fuzz> = <http_request><newline><newline>
 
 <http_request> = <http_method> <http_uri> HTTP/<http_version><newline><http_headers>
-# <http_request> = <http_body_method> <http_uri> HTTP/<http_version><newline><http_headers><newline><http_body_content>
+<http_request> = <http_body_method> <http_uri> HTTP/<http_version><newline><http_headers><newline><http_body_content>
 
 <http_version> = 1.1
 <http_version> = 1.0
@@ -17,24 +17,34 @@
 <http_method> = <string>
 
 <http_body_method> = POST
+<http_body_method> = PUT
+<http_body_method> = <string>
 
-<http_uri> = /<string>
-<http_uri> = /<string>/<string>
-<http_uri> = /<string>?<http_query>
+<http_uri> = /<string min=65 max=126>
+<http_uri> = /<string min=65 max=126>/<string min=65 max=126>
+<http_uri> = /<string min=65 max=126>?<http_query>
 
-<http_query> = <string>=<string>
-<http_query> = <string>=<string>&<http_query>
+<http_query> = <string min=65 max=126>=<string min=65 max=126>
+<http_query> = <string min=65 max=126>=<string min=65 max=126>&<http_query>
+<http_query> = <string min=65 max=126>=<string min=65 max=126>&<http_query>
+<http_query> = <string min=65 max=126>=<string min=65 max=126>&<http_query>
+<http_query> = <string min=65 max=126>=<string min=65 max=126>&<http_query>
+<http_query> = <string min=65 max=126>=<string min=65 max=126>&<http_query>
 
-<http_headers> = <http_header>
-<http_headers> = <http_header><newline><http_header>
-<http_headers> = <http_header><newline><http_header><newline><http_header>
-<http_headers> = <http_header><newline><http_header><newline><http_header><newline><http_header>
-<http_headers> = <http_header><newline><http_header><newline><http_header><newline><http_header><newline><http_header>
-<http_headers> = <http_header><newline><http_header><newline><http_header><newline><http_header><newline><http_header><newline><http_header>
-<http_headers> = <http_header><newline><http_header><newline><http_header><newline><http_header><newline><http_header><newline><http_header><newline><http_header>
-<http_headers> = <http_header><newline><http_header><newline><http_header><newline><http_header><newline><http_header><newline><http_header><newline><http_header><newline><http_header>
-<http_headers> = <http_header><newline><http_header><newline><http_header><newline><http_header><newline><http_header><newline><http_header><newline><http_header><newline><http_header><newline><http_header>
-<http_headers> = <http_header><newline><http_header><newline><http_header><newline><http_header><newline><http_header><newline><http_header><newline><http_header><newline><http_header><newline><http_header><newline><http_header>
+# We want a higher probability of multiple headers
+<http_headers> = <http_header><newline><http_headers>
+<http_headers> = <http_header><newline><http_headers>
+<http_headers> = <http_header><newline><http_headers>
+<http_headers> = <http_header><newline><http_headers>
+<http_headers> = <http_header><newline><http_headers>
+<http_headers> = <http_header><newline><http_headers>
+<http_headers> = <http_header><newline><http_headers>
+<http_headers> = <http_header><newline><http_headers>
+<http_headers> = <http_header><newline><http_headers>
+<http_headers> = <http_header><newline><http_headers>
+<http_headers> = <http_header><newline><http_headers>
+<http_headers> = <http_header><newline><http_headers>
+<http_headers> = <http_header><newline>
 
 <http_header> = Accept: <http_accept_value>
 <http_header> = Accept-Charset: <http_charset>
@@ -109,6 +119,7 @@
 <http_user_agent> = curl/<string>
 <http_user_agent> = PostmanRuntime/<string>
 
+# TODO
 <http_body_content> = <string>
 <http_body_content> = {"<string>": "<string>"}
 <http_body_content> = <string>=<string>&<string>=<string>
