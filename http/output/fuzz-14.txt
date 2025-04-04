@@ -1,16 +1,0 @@
-POST /k~OgiM HTTP/1.1
-Cookie: =÷×ø~æVÅZ.k
-%ùz¸; ÍH%é>=Jãt¼é; Z`ÔþqE	·=
-ó[Î¸ñÒ²XøÍ; ÍYíúfÃ·*üÆ48=á
-Cache-Control: no-cache
-User-Agent: Mozilla/5.0 (ÈQ2¿B}ð) à¶(pÓ2Hø/«
-Referer: /xajms]xvIADKb~o?debug=Z[}CnhOtt`l^Hrx_GJv&password=json
-If-None-Match: "¤ÓWD?)"
-Connection: keep-alive
-Authorization: Basic »©¬ÒíÕÖ®-$Äî+l
-Accept-Encoding: gzip
-Referer: /index.php
-If-Unmodified-Since: 
-
-login=json
-

@@ -1,5 +1,0 @@
-oISï /e|ik HTTP/1.1
-Accept-Charset: utf-8
-If-None-Match: "²Ó^J÷hb¢é"
-
-

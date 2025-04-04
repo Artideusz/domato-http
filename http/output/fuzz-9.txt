@@ -1,4 +1,0 @@
-DELETE /login?username=json HTTP/2.0
-Accept-Encoding: identity
-
-

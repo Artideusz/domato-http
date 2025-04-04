@@ -1,16 +1,0 @@
-DELETE /bgImGtYCTHHF HTTP/1.0
-If-Unmodified-Since: sÚM¥î 
-If-None-Match: W/""
-Content-Type: multipart/form-data; boundary=Ón6¢âÄ°+
-Authorization: Digest >`ÞÔªÇ9yæþß¼
-Referer: /help
-Host: 2Ó-¿å=-	¸
-
-Accept-Charset: *
-Accept-Language: en
-Referer: /index.php?debug=json&VRO{GuxKCzb=admin&username=1&login=true&username=1&password=admin
-Range: bytes=1406406088--1775333512
-Range: bytes=85534939--219427300
-Host: Þ½
-
-

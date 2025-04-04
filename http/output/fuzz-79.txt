@@ -1,20 +1,0 @@
-PUT /help?debug=]\kj|dkuqORAH|C HTTP/1595325859.-1879919815
-Accept-Charset: utf-8
-If-Range: :-V%±OUÛ
-Accept-Encoding: identity
-Cache-Control: max-age=-515577920
-If-Modified-Since: ØÕºÉ4kÁÍ4=
-Accept: */*
-If-Range: Öx
-If-Modified-Since: 
-Connection: close
-User-Agent: Mozilla/5.0 () L.étñw»Ýw6/-ÂçQI
-Content-Type: application/json
-Accept-Encoding: br
-Accept-Encoding: gzip
-Cookie: mè-ïnf=d:û`æCw`ÓéG¦¶&; sreqÊ¬F
-fæV:ÅG+=D±éß«ÿÖ5Åpþ; çgAÐ=o¿¢º
-Content-Type: application/x-www-form-urlencoded
-
-[{"type": "true"},{"login": "true"}]
-

@@ -1,8 +1,0 @@
-POST /system/login?FDLNWzW=i[bG\Bn}N~pDB_RpxvkG HTTP/1.0
-Accept-Charset: iso-8859-1
-If-Range: ±Ãçé
-Ú»7
-Host: Ã1Î
-
---D\r\nContent-Disposition: form-data; name="K¦õMB/MgJMÃFÅh"\r\n\r\n\r\n--ôv4x·½--
-

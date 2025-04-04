@@ -1,6 +1,0 @@
-OPTIONS /login?E~aUbf\YPvsRlX={Aa HTTP/2.0
-Accept-Encoding: identity
-Range: bytes=884420737--956163820
-Connection: close
-
-

@@ -1,22 +1,0 @@
-CONNECT /../../../etc/passwd HTTP/1.1
-Content-Type: text/plain
-If-Unmodified-Since: 4<þËß#3ÒW7mcè
-If-None-Match: ""
-If-Match: W/"n0T.Mo "
-Cache-Control: no-store
-Content-Length: 1029089624
-Authorization: Basic ªó7
-Host: Qü/w	|+©ð
-If-Match: W/""
-Host: üÜy#Úow\Lr
-Range: bytes=224358153--1388807018
-If-Unmodified-Since: ð
-Cache-Control: no-cache
-User-Agent: Mozilla/5.0 (;àÜb) èÜ/áÔ¸üÃ
-Content-Type: multipart/form-data; boundary=â-Íó;yîÓÜDÅo·òDç¬
-Host: yÅüé6T>{òÕ£R#ø
-If-Match: W/"ãpèzÏ^UÛõz%"
-Content-Length: -1175139448
-Content-Type: text/html
-
-

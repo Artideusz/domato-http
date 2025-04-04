@@ -1,7 +1,0 @@
-CONNECT /500?password=json HTTP/-767283902.-1608775429
-Accept-Charset: iso-8859-1
-If-Match: W/"VÂXl"
-Accept-Encoding: deflate
-Accept-Encoding: identity
-
-

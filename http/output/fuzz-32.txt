@@ -1,5 +1,0 @@
-ÚìÃóÏïØ¿&¶j´É /index.php HTTP/1.1
-Accept-Language: *
-
-[{"hVzez{": "admin"},{"type": "1"}]
-

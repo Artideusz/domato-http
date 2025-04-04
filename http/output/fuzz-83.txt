@@ -1,9 +1,0 @@
-DELETE /login?type=admin&login=true HTTP/1.0
-Host: TÉ8äWNÞÃº2
-Content-Type: text/html
-Referer: /?\BPUgBYucWIfNn=json&login=true
-Accept-Language: en-US
-Cookie: .6¬$³Wçavl²=ó¿CÑá
-Accept-Charset: *
-
-

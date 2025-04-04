@@ -1,4 +1,0 @@
-DELETE /wva|y HTTP/2.0
-Referer: /assets/login?~{I=1&type=pdA|HVYmeGyHiz?username=QFCwlMu&type=json&debug=C
-
-

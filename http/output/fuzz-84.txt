@@ -1,25 +1,0 @@
-PUT /system/login?username=json HTTP/827650062.1820254044
-Referer: /assets
-Accept-Charset: utf-8
-Host: òl_ypA°©(
-Accept: application/xml
-Accept: application/json
-Cache-Control: max-age=710757661
-Cookie: Ñq^K?³® 9Þñq=~.²>¬ýÑôJ2UàG; :ýC=u¼3; uªìYÆÍi=¢0	2×/ðõ`,âoÐø; ÖãðLXXÛ)LupDÙ=öÁ£7y¿ehâðÒ&gös; +»=× FO; =ØÍ=OB{i¨°ãq¸Ý
-User-Agent: Mozilla/5.0 (l) ò/|ë4úÒÍ
-Content-Type: text/html
-Accept: application/xml
-Range: bytes=1930814167-1026607564
-User-Agent: Mozilla/5.0 (ß~[) Õ8C¿cÎÊ:/UN¾5=ÃÚ03
-If-Match: "'ërrD:QÛû é2"
-Content-Length: 1509450720
-Connection: close
-User-Agent: curl/
-Range: bytes=1157210573--2081343292
-If-Match: "Ód#~òdx"
-Referer: /500?password=json
-If-Modified-Since: ØI¾Ïý
-If-Match: W/"WÂÝ"
-
-username=1&login=1&password=cKJxFtHrAEtlFPd_cC&username=&password=json
-

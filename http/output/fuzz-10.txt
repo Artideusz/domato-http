@@ -1,5 +1,0 @@
-POST /500?login=true HTTP/1.1
-Accept: text/html
-
-[{"username": "admin"},{"debug": "IonuzkH~Sr{Eql^JTjs\"}]
-

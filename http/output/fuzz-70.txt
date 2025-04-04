@@ -1,16 +1,0 @@
-POST /system/login HTTP/1.0
-Content-Type: application/x-www-form-urlencoded
-If-Match: "F»<¶tDSaøVÕCà+"
-Accept-Language: fr
-If-Range: ÝëQlíZY	cs
-If-Range: <5ðä`3
-Accept-Charset: *
-Cache-Control: no-store
-Accept: application/json
-Connection: close
-Accept-Encoding: br
-If-Modified-Since: +èkÒ£÷äÄ
-Host: Wâ=8ö	µ
-
---Êûñ\r\nContent-Disposition: form-data; name="qjaÍ>Ëíò"\r\n\r\nx\	+·8ûè\r\n--¡lE-@lývØt'Fûoò¡¦¹--
-

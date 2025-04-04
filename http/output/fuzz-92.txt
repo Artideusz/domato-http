@@ -1,17 +1,0 @@
-POST /v}qIbp HTTP/1.1
-Content-Type: application/x-www-form-urlencoded
-If-Modified-Since: 	E¸¸ÀÆÈ hRÉ]
-If-Range: CëÔü¨}'ü^ýüäNBVÂ
-Cache-Control: no-cache
-Content-Length: 1253388873
-Host: Ã2Mú
-If-Modified-Since: ¥Ý
-Accept-Language: de
-Range: bytes=1168583874--1538079585
-User-Agent: Mozilla/5.0 (Ù¡.) ^Â&/Á
-Content-Type: application/x-www-form-urlencoded
-Range: bytes=-1589629768--536519520
-Connection: keep-alive
-
-username=admin
-

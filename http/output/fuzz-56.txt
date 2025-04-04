@@ -1,30 +1,0 @@
-@\& /system/login HTTP/2.0
-Cookie: C£ø3ýûÃYSÄ=ÄôkÛüæ
-Authorization: Digest ^§`­,Ì¬·¬*.<M
-User-Agent: PostmanRuntime/CÕxu
-Connection: close
-Authorization: Digest  ø!Ùý)zMQÃNCÖÈ
-Host: õ´fHm
-Referer: /system/login?debug=dIx^~}lpkDV
-User-Agent: Mozilla/5.0 (Ê"«"0T_?Õ§«³Ì)  Äùhú®Å±Hÿ~Ì-/ÂDõ·tDÑÚ
-If-Unmodified-Since: VA
-Accept-Charset: iso-8859-1
-If-Range: ÿ×/±¥ÛÊàÙ` /ZÁN
-Content-Type: text/html
-If-Range: ÕDÚukî
-Host: ã}¤½0bÉ¦i}TÞHS¨e
-If-Modified-Since: 
-Authorization: Bearer ùmOâ°,öVý
-Content-Length: 833294705
-Content-Type: multipart/form-data; boundary=VÁDèErér:U°C@4s!
-Connection: close
-If-Modified-Since: ÑT
-If-Unmodified-Since: ed²Û
-Accept-Language: de
-Host: è<¸;æI
-If-Range: iMÒ¥Ç£Do¸Ôgt Ã
-Content-Length: 1262275158
-If-Match: "ù(aÊ¨#Ê8ïå"
-
-type=1
-

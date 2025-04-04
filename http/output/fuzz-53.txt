@@ -1,11 +1,0 @@
-hÛxËx /system/login?aLj_M~DztZuvS_Nx{=1 HTTP/2.0
-If-None-Match: "PòB¾ý¥["
-If-Unmodified-Since: aE
-Accept: application/xml
-Connection: keep-alive
-Cache-Control: no-cache
-If-Modified-Since: ð
-Accept-Language: *
-
-[{"type": "true"},{"type": "true"}]
-
